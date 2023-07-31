@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="config.xsd">
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-2.5</x_min>
+    <x_max>1.5</x_max>
+    <y_min>-2.0</y_min>
+    <y_max>2.0</y_max>
+    <iteration>100</iteration>
+    <incremental_step>100</incremental_step>
+    <color_mode>RED</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-2.5</x_min>
+    <x_max>1.5</x_max>
+    <y_min>-2.0</y_min>
+    <y_max>2.0</y_max>
+    <iteration>100</iteration>
+    <incremental_step>100</incremental_step>
+    <color_mode>GREEN</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-2.5</x_min>
+    <x_max>1.5</x_max>
+    <y_min>-2.0</y_min>
+    <y_max>2.0</y_max>
+    <iteration>100</iteration>
+    <incremental_step>100</incremental_step>
+    <color_mode>BLUE</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-2.5</x_min>
+    <x_max>1.5</x_max>
+    <y_min>-2.0</y_min>
+    <y_max>2.0</y_max>
+    <iteration>100</iteration>
+    <incremental_step>10</incremental_step>
+    <color_mode>RED</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-2.5</x_min>
+    <x_max>1.5</x_max>
+    <y_min>-2.0</y_min>
+    <y_max>2.0</y_max>
+    <iteration>100</iteration>
+    <incremental_step>10</incremental_step>
+    <color_mode>GREEN</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-2.5</x_min>
+    <x_max>1.5</x_max>
+    <y_min>-2.0</y_min>
+    <y_max>2.0</y_max>
+    <iteration>100</iteration>
+    <incremental_step>10</incremental_step>
+    <color_mode>BLUE</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-0.9</x_min>
+    <x_max>-0.6</x_max>
+    <y_min>-0.4</y_min>
+    <y_max>0.1</y_max>
+    <iteration>100</iteration>
+    <incremental_step>100</incremental_step>
+    <color_mode>RED</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-0.9</x_min>
+    <x_max>-0.6</x_max>
+    <y_min>-0.4</y_min>
+    <y_max>0.1</y_max>
+    <iteration>100</iteration>
+    <incremental_step>100</incremental_step>
+    <color_mode>GREEN</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-0.9</x_min>
+    <x_max>-0.6</x_max>
+    <y_min>-0.4</y_min>
+    <y_max>0.1</y_max>
+    <iteration>100</iteration>
+    <incremental_step>100</incremental_step>
+    <color_mode>BLUE</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-0.9</x_min>
+    <x_max>-0.6</x_max>
+    <y_min>-0.4</y_min>
+    <y_max>0.1</y_max>
+    <iteration>100</iteration>
+    <incremental_step>10</incremental_step>
+    <color_mode>RED</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-0.9</x_min>
+    <x_max>-0.6</x_max>
+    <y_min>-0.4</y_min>
+    <y_max>0.1</y_max>
+    <iteration>100</iteration>
+    <incremental_step>10</incremental_step>
+    <color_mode>GREEN</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+
+
+  <mandelbrot>
+    <width>2048</width>
+    <height>2048</height>
+    <x_min>-0.9</x_min>
+    <x_max>-0.6</x_max>
+    <y_min>-0.4</y_min>
+    <y_max>0.1</y_max>
+    <iteration>100</iteration>
+    <incremental_step>10</incremental_step>
+    <color_mode>BLUE</color_mode>
+    <threshold>10</threshold>
+    <output>#{GUID}.png</output>
+  </mandelbrot>
+</config>

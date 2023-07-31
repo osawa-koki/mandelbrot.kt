@@ -6,5 +6,5 @@
 
 ```shell
 docker build -t mandelbrot-kt .
-docker run -it --rm --name mandelbrot-kt mandelbrot-kt
+docker run -it --rm -v $(pwd)/public:/src/public --name mandelbrot-kt mandelbrot-kt
 ```

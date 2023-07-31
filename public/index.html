@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kotlin.java</title>
+  <style>
+    body {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    #ImageContiner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    #ImageContiner > img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kotlin &times; Mandelbrot</h1>
+  <div id="ImageContiner"></div>
+  <script>
+    (async () => {
+      const imageContiner = document.getElementById('ImageContiner')
+      const paths = (await (await fetch('./paths.txt')).text()).split(',').sort(() => Math.random() - 0.5)
+      paths.forEach((path) => {
+        const img = document.createElement('img')
+        img.src = path
+        console.log(path)
+        imageContiner.appendChild(img)
+      })
+      const selectedPath = paths[0]
+      const linkIcon = document.createElement('link')
+      linkIcon.rel = 'icon'
+      linkIcon.type = 'image/png'
+      linkIcon.href = selectedPath
+      document.head.appendChild(linkIcon)
+    })()
+    .then(() => {
+      console.log('done')
+    })
+    .catch((err) => {
+      console.error(err)
+    })
+  </script>
+</body>
+</html>

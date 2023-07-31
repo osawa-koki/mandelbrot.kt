@@ -1,0 +1,32 @@
+name: Kotlin test
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - issues/*
+  pull_request:
+    branches:
+      - main
+      - develop
+      - issues/*
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        java-distribution:
+          - oracle
+          - corretto
+          - liberica
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: ${{ matrix.java-distribution }}
+      - name: Build with Gradle
+        run: ./gradlew test

@@ -1,3 +1,3 @@
 
-rootProject.name = "kotlin-simple-project"
+rootProject.name = "mandelbrot-kt"
 

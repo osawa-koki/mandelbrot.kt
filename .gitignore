@@ -1,5 +1,6 @@
 /**/public/*
 !/public/.gitkeep
+!/public/index.html
 
 .gradle
 build/

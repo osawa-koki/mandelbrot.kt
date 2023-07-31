@@ -3,4 +3,4 @@ WORKDIR /src
 COPY . .
 RUN chmod +x ./gradlew
 RUN ./gradlew build
-CMD [ "./gradlew", "run" ]
+ENTRYPOINT [ "./gradlew", "run" ]

@@ -1,10 +1,10 @@
-# mandelbrot.kt
+# kotlin-simple-project
 
-🕊🕊🕊 Kotlinでマンデルブロ集合を描画する！  
+🦜🦜🦜 Kotlinでアプリケーションを開発してみるサンプルプロジェクト。  
 
 ## 実行方法
 
 ```shell
-docker build -t mandelbrot-kt .
-docker run -it --rm -v $(pwd)/public:/src/public --name mandelbrot-kt mandelbrot-kt
+docker build -t kotlin-simple-project .
+docker run -it --rm --name kotlin-simple-project kotlin-simple-project
 ```

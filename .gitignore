@@ -1,6 +1,5 @@
-/**/public/*
-!/public/.gitkeep
-!/public/index.html
+.idea/**/workspace.xml
+.idea/**/tasks.xml
 
 .gradle
 build/
